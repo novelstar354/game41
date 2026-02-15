@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Popタイピング</title>
-
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ZDlsiFA_DIkJ2bbsHeEjidPXrAT0OUKzHQ&s" sizes="16×16" type="image/png" />  
 <style>
 body{
     margin:0;
@@ -62,7 +62,7 @@ button{
 </head>
 <body>
 
-<h1>🍿 Popタイピング</h1>
+<h1>Popタイピング</h1>
 <div id="timer">残り時間: 60</div>
 <div id="score">ポップ数: 0</div>
 <div id="word">Press Space to Start</div>
@@ -203,6 +203,15 @@ document.addEventListener("keydown",(e)=>{
 document.getElementById('reloadButton').addEventListener('click', function() {
     window.location.reload(); // ページを再読み込み
 });
+// キーボードイベントを監視
+document.addEventListener("keydown", function(event) {
+  // event.key が "Escape" なら
+  if (event.key === "Escape") {
+    // ページをリロード
+    location.reload();
+  }
+});
+
 </script>
 
 </body>
