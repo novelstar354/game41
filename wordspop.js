@@ -63,7 +63,7 @@ let words = [
 
 
 // 1〜200
-WORDS.push(
+words.push(
 "aback","abase","abate","abbey","abbot","abhor","abide","abled","abort","about",
 "above","abuse","abyss","acorn","acrid","actor","acute","adage","adapt","adept",
 "admin","admit","adobe","adopt","adore","adult","affix","afire","afoot","afoul",
@@ -86,7 +86,7 @@ WORDS.push(
 );
 
 // 201〜400
-WORDS.push(
+words.push(
 "bided","bidet","bilge","billy","binge","biome","birch","birth","bison","bitty",
 "black","blade","blame","bland","blank","blare","blast","blaze","bleak","bleed",
 "blend","bless","blimp","blind","blink","bliss","blitz","bloat","block","blond",
@@ -102,7 +102,7 @@ WORDS.push(
 );
 
 // 401〜600
-WORDS.push(
+words.push(
 "cabal","cabin","cable","cacao","cache","cacti","caddy","cadet","cagey","cairn",
 "camel","cameo","canal","candy","canoe","canon","caput","carat","cargo","carol",
 "carry","carve","caste","catch","cater","catty","caulk","cause","cavil","cease",
@@ -116,7 +116,7 @@ WORDS.push(
 );
 
 // 601〜800
-WORDS.push(
+words.push(
 "clump","clung","coach","coast","cobra","cocoa","colon","color","comet","comic",
 "comma","coral","couch","cough","could","count","coupe","court","coven","cover",
 "covet","cowry","cower","coyly","crack","craft","cramp","crane","crank","crash",
@@ -129,7 +129,7 @@ WORDS.push(
 );
 
 // 801〜1000
-WORDS.push(
+words.push(
 "debug","debut","decay","decil","defer","deign","delay","delta","demon","denim",
 "dense","depot","depth","derby","deter","devil","diary","digit","dilly","diner",
 "dingy","diode","dirge","dirty","disco","ditch","ditto","ditty","diver","dizzy",
@@ -139,10 +139,10 @@ WORDS.push(
 "droop","drove","drown","drunk","dryad","dryer","dubious","duchy","dulce","dully",
 "dummy","dumps","dunce","duoed","duped","durum","dusky","dusty","dutch","duvet"
 );
-const WORDS = [];
+
 
 // ランダム長の単語リスト
-WORDS.push(
+words.push(
 "ace","bat","cat","dog","eel","fig","gum","hat","ice","jar",
 "king","lamp","moon","note","open","park","quiz","rush","star","tree",
 "angel","bacon","cider","dwarf","eagle","fable","giant","honey","ivory","jelly",
@@ -152,10 +152,10 @@ WORDS.push(
 "occasion","parachute","quarantine","resemble","scenario","telephone","umbrella","vacation","whispered","xylophonist",
 "yesterday","zeppelin","adventure","breakfast","chocolate","dangerous","efficient","furniture","geography","hospital"
 );
-const WORDS = [];
+
 
 // 1〜200
-WORDS.push(
+words.push(
 "ace","bat","cat","dog","eel","fig","gum","hat","ice","jar",
 "key","log","man","net","owl","pen","rat","sun","tap","urn",
 "van","wax","yak","zip","ant","box","cow","dig","elf","fly",
@@ -174,7 +174,7 @@ WORDS.push(
 );
 
 // 201〜400
-WORDS.push(
+words.push(
 "deal","dear","debt","deck","deep","deer","deny","desk","dial","dice",
 "diet","dime","dine","ding","dirt","disk","dive","dock","does","doll",
 "dome","done","door","dose","down","drag","draw","drop","drum","duck",
@@ -192,7 +192,7 @@ WORDS.push(
 );
 
 // 401〜600
-WORDS.push(
+words.push(
 "hill","hint","hire","hold","hole","holy","home","hood","hook","hope",
 "horn","host","hour","huge","hung","hunt","hurt","idea","idle","inch",
 "into","iron","item","jack","jail","java","jazz","jean","join","joke",
@@ -207,7 +207,7 @@ WORDS.push(
 );
 
 // 601〜800
-WORDS.push(
+words.push(
 "model","money","month","moral","motel","mount","mouse","mouth","movie","music",
 "myth","nadir","naive","nasty","naval","nerve","never","newly","niche","night",
 "noble","noise","north","notch","novel","nurse","nutty","oasis","ocean","offer",
@@ -220,7 +220,7 @@ WORDS.push(
 );
 
 // 801〜1000
-WORDS.push(
+words.push(
 "prove","pulse","punch","pupil","purse","queen","query","quest","quick","quiet",
 "quilt","quite","quote","radar","radio","rainy","raise","rally","range","rapid",
 "ratio","reach","react","ready","realm","rebel","refer","relax","renew","repay",
@@ -233,7 +233,7 @@ WORDS.push(
 );
 
 // 1001〜2000
-WORDS.push(
+words.push(
 "abide","actor","adapt","adopt","adult","affix","agate","ahead","aisle","alarm",
 "album","alert","alien","align","alike","alive","alloy","alone","along","aloof",
 "altar","alter","amass","amaze","amber","amble","amend","amidst","amiss","among",
@@ -254,7 +254,7 @@ WORDS.push(
 );
 
 // 2001〜3000
-WORDS.push(
+words.push(
 "blurb","blurt","blush","board","boast","bobby","bonus","boost","booth","booty",
 "borax","borne","bosom","bossy","botch","bough","bound","bowel","brace","bract",
 "braid","brain","brake","brand","brash","brass","brave","brawl","brawn","bread",
