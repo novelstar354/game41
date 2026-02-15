@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cornタイピング</title>
+<title>Popタイピング</title>
 <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ZDlsiFA_DIkJ2bbsHeEjidPXrAT0OUKzHQ&s" sizes="16×16" type="image/png" />  
+
 <style>
 body{
     margin:0;
@@ -62,7 +63,7 @@ button{
 </head>
 <body>
 
-<h1>Cornタイピング</h1>
+<h1>🍿 Popタイピング</h1>
 <div id="timer">残り時間: 60</div>
 <div id="score">ポップ数: 0</div>
 <div id="word">Press Space to Start</div>
@@ -97,7 +98,7 @@ const titles = [
 // 例:
 // { min: 800, name: "宇宙ポップ神", color: "cyan" },
 
-
+//const words=["apple","banana","popcorn","keyboard","game","javascript","coding","rocket","star","happy"];
 
 let currentWord="",index=0,score=0,time=60,timer=null;
 let playing=false,totalTyped=0,correctTyped=0;
@@ -203,13 +204,13 @@ document.addEventListener("keydown",(e)=>{
 document.getElementById('reloadButton').addEventListener('click', function() {
     window.location.reload(); // ページを再読み込み
 });
-// キーボードイベントを監視
+// キーイベントを監視
 document.addEventListener("keydown", function(event) {
-  // event.key が "Escape" なら
-  if (event.key === "Escape") {
-    // ページをリロード
-    location.reload();
-  }
+    // Escキーのコードは "Escape"
+    if (event.key === "Escape") {
+        // ページを再読み込み
+        location.reload();
+    }
 });
 
 </script>
